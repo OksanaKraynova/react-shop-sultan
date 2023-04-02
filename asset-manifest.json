@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-shop-sultan/static/css/main.e44cfcd0.css",
+    "main.js": "/react-shop-sultan/static/js/main.0213fd12.js",
+    "index.html": "/react-shop-sultan/index.html",
+    "main.e44cfcd0.css.map": "/react-shop-sultan/static/css/main.e44cfcd0.css.map",
+    "main.0213fd12.js.map": "/react-shop-sultan/static/js/main.0213fd12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e44cfcd0.css",
+    "static/js/main.0213fd12.js"
+  ]
+}
