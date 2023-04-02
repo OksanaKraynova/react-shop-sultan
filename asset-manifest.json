@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.66a445fc.css",
-    "main.js": "/static/js/main.a193dc37.js",
-    "index.html": "/index.html",
-    "main.66a445fc.css.map": "/static/css/main.66a445fc.css.map",
-    "main.a193dc37.js.map": "/static/js/main.a193dc37.js.map"
+    "main.css": "/react-shop-sultan/static/css/main.66a445fc.css",
+    "main.js": "/react-shop-sultan/static/js/main.a193dc37.js",
+    "index.html": "/react-shop-sultan/index.html",
+    "main.66a445fc.css.map": "/react-shop-sultan/static/css/main.66a445fc.css.map",
+    "main.a193dc37.js.map": "/react-shop-sultan/static/js/main.a193dc37.js.map"
   },
   "entrypoints": [
     "static/css/main.66a445fc.css",
