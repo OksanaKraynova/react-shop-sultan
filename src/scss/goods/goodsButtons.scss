@@ -28,6 +28,7 @@
     }
     &__share{
         width: 77px;
+        padding: 0;
         @media(max-width: 768px){
             order: 2;
         }

@@ -4,17 +4,17 @@ import { brand } from '../../../../../data/brand';
 import { products } from '../../../../../data/products';
 import { ISearch } from '../../../../../types/ISearch';
 
-const ChooseBrandsChackboxes = ({setGoods}: ISearch['setGoods']) => {
+const ChooseBrandsChackboxes = ({ setGoods }: ISearch['setGoods']) => {
     const [more, setMore] = useState(false)
     const [list, setList] = useState(brand.slice(0, 4))
     const localGoods = useAppSelector(state => state.root.createState.goods)
-    const [arr, setArr] = useState(localGoods.length ? localGoods :  products)
+    const [arr, setArr] = useState(localGoods.length ? localGoods : products)
 
     const handleChange = () => {
         setMore(!more)
         more ? setList(brand.slice(0, 4)) : setList(brand.sort((a: any, b: any) => a.title < b.title ? -1 : 1))
     }
-    const handleChooseBrand = (type: string, ) => {
+    const handleChooseBrand = (type: string,) => {
         const data = arr.filter((item: { brand: string; }) => item.brand.toLowerCase() === type.toLowerCase())
         setGoods(data)
     }
@@ -29,8 +29,15 @@ const ChooseBrandsChackboxes = ({setGoods}: ISearch['setGoods']) => {
             ))}
             <button className='brand__more' onClick={handleChange} >
                 <span>Показать все</span>
-                {more ? <img src="icons/arr-up.svg"  alt="" /> : <img src="icons/arr-down.svg"  alt="" />}
-               
+                {more ?
+                    <svg width="7" height="6" viewBox="0 0 7 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 0L6.53109 5.25L0.468911 5.25L3.5 0Z" fill="#3F4E65" />
+                    </svg>
+                    :
+                    <svg width="7" height="6" viewBox="0 0 7 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 6L0.468911 0.750001L6.53109 0.75L3.5 6Z" fill="#3F4E65" />
+                    </svg>
+                }
             </button>
 
 

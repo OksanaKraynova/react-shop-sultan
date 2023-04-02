@@ -15,8 +15,8 @@ const FooterContacts = () => {
                 <span>На связи в любое время</span>
             </div>
             <div className="">
-                <img className='img-first' alt='visa' src='icons/visa.png' />
-                <img alt='visa' src='icons/master.png' />
+                <img className='img-first' alt='visa' src='../icons/visa.png' />
+                <img alt='visa' src='../icons/master.png' />
             </div>
             </div>
            

@@ -1,7 +1,7 @@
 export const products = [
     {
         name: 'Aos',
-        url: '/static/products/aos.png',
+        url: 'https://dimmax.su/wp-content/uploads/2019/06/aos-romashka-450-dimmax.jpg',
         type: 'мл',
         size: '450',
         code: '4583648409',
@@ -16,7 +16,7 @@ export const products = [
     },
     {
         name: 'Ariel pods',
-        url: '/static/products/ariel.png',
+        url: 'https://m.onlinetrade.ru/img/items/m/stiralnyy_poroshok_ariel_color_avtomat_3kg_137740_2.png',
         type: 'pods',
         size: '15',
         pack: 'box',
@@ -31,7 +31,7 @@ export const products = [
     },
     {
         name: 'BiMAX',
-        url: '/static/products/bimax.png',
+        url: 'https://img.fix-price.com/800x800/images/origin/origin/416d4f6f188e29e0b83c5e284d690d31.jpg',
         type: 'г',
         size: '1500',
         code: '58746729',
@@ -46,7 +46,7 @@ export const products = [
     },
     {
         name: 'BioMio',
-        url: '/static/products/biomio.png',
+        url: 'https://www.podrygka.ru//upload/iblock/966/966a27334c6c8e6907571c0b9a0963d1.jpg',
         type: 'г',
         size: '90',
         code: '453592281',
@@ -61,7 +61,7 @@ export const products = [
     },
     {
         name: 'Бомбочка для ванны',
-        url: '/static/products/bomb.jpeg',
+        url: 'https://pwa-api.eva.ua/img/512/512/resize/5/0/509975_1_1667985070.jpg',
         type: 'г',
         size: '50',
         code: '6587529984',
@@ -76,7 +76,7 @@ export const products = [
     },
     {
         name: 'Бомбочка для ванны',
-        url: '/static/products/bomb2.jpeg',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3hY7A1M9zN4ajrrd6o7x1ghYToyqkcRIgA&usqp=CAU',
         type: 'г',
         size: '50',
         code: '587489543839488',
@@ -90,8 +90,8 @@ export const products = [
         uses: 'бомбочка'
     },
     {
-        name: 'Rexona Антиперспирант шариковый женский ',
-        url: '/static/products/rexona.jpg',
+        name: 'Rexona Антиперспирант шариковый мужской ',
+        url: 'http://novex.ru/_image/i/rs:fit:600:600/bG9jYWw6Ly8vdXBsb2Fkcy9wcm9kdWN0cy81MzkxMC9iOGQyZjVjZmQyODc2ZWRhMWIzMWMxNWE1Y2FjYTQ1OC5qcGc',
         type: 'мл',
         size: '50',
         code: '5487683498309',
@@ -106,7 +106,7 @@ export const products = [
     },
     {
         name: 'DOVE бессульфатный гель',
-        url: '/static/products/dove.jpeg',
+        url: 'https://dimmax.su/wp-content/uploads/2019/06/kremgeldovedim1.jpg',
         type: 'мл',
         size: '250',
         code: '476595423',
@@ -121,7 +121,7 @@ export const products = [
     },
     {
         name: 'Бархатные Ручки ',
-        url: '/static/products/hands.jpeg',
+        url: 'https://www.vikontgroup.ru/image/cache/catalog/4100004939-500x500.jpg',
         type: 'мл',
         size: '80',
         code: '43654432',
@@ -136,7 +136,7 @@ export const products = [
     },
     {
         name: 'Erborian Крем для рук',
-        url: '/static/products/hands2.png',
+        url: 'https://1ce99ace-f9a0-485c-ac03-aaba29499c44.selcdn.net/iblock/c3e/qh5kdjaxc3r2ikzq7u13ou3t97pa7r0r.png',
         type: 'мл',
         size: '20',
         code: '387598',
@@ -151,7 +151,7 @@ export const products = [
     },
     {
         name: 'Бархатные Ручки Универсальный КРЕМ',
-        url: '/static/products/hands3.png',
+        url: 'https://irecommend.ru/sites/default/files/product-images/1287203/JZ0RKNeL8v544DHpc9g.jpg',
         type: 'мл',
         size: '150',
         code: '4389842',
@@ -166,7 +166,7 @@ export const products = [
     },
     {
         name: 'Мочалка для тела',
-        url: '/static/products/moch.jpeg',
+        url: 'https://www.joypet.ru/image/cache/cc8bc0cbf199c48a09750db2d6286886.jpg',
         type: 'шт',
         size: '1',
                 code: '84375982',
@@ -180,7 +180,7 @@ export const products = [
     },
     {
         name: 'Nivea Soft Интенсивный увлажняющий крем',
-        url: '/static/products/nivea.jpeg',
+        url: 'https://ir.ozone.ru/s3/multimedia-r/c1000/6021041271.jpg',
         type: 'мл',
         size: '100',
         code: '48359823',
@@ -195,7 +195,7 @@ export const products = [
     },
     {
         name: 'Масло для рук натуральное',
-        url: '/static/products/oil.jpeg',
+        url: 'https://www.krasotkapro.ru/images/440x440/2595892.jpg',
         type: 'мл',
         size: '75',
         code: '89742202',
@@ -210,7 +210,7 @@ export const products = [
     },
     {
         name: 'ATB lab Сыворотка-пилинг с кислотами Exfloating Acid Mask ',
-        url: '/static/products/peels.png',
+        url: 'https://goldapple.ru/media/catalog/product/cache/7c72a742678f135337f3d39eb3099e35/7/6/7640103275061_1_mrjhk1apwehhcqdg.jpg',
         type: 'мл',
         size: '30',
         code: '325348532',
@@ -225,7 +225,7 @@ export const products = [
     },
     {
         name: 'Скраб для тела Organic Shop "Малиновые сливки"',
-        url: '/static/products/polish.jpeg',
+        url: 'https://ir.ozone.ru/multimedia/c1000/1005606829.jpg',
         type: 'г',
         size: '250',
         code: '7436983534',
@@ -240,7 +240,7 @@ export const products = [
     },
     {
         name: 'VEET Крем для депиляции в душе',
-        url: '/static/products/veet.png',
+        url: 'https://ae04.alicdn.com/kf/U747e0c45e0394281bb89b66c03d0579dh/Veet-150.jpg',
         type: 'г',
         size: '300',
         code: '4565465475',

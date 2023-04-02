@@ -5,6 +5,7 @@ import { addToCart, decreaseCart, removeFromCart, clearCart } from '../../reduse
 import { ICard } from '../../types/ICard';
 import CartItem from './CartItem/CartItem';
 import CartOrder from './CartOrder';
+import Back from '../../icons/Back';
 
 const CartWrapper = () => {
     const cart = useAppSelector((state) => state.root.cartState.cartItems)
@@ -32,7 +33,7 @@ const CartWrapper = () => {
                 <Link to='/cart'>Корзина</Link>
             </div>
             <Link to='/' className='hide' >
-                <img src="icons/back.svg" alt="" />
+               <Back />
             </Link>
             <div className="cart__title">КОРЗИНА</div>
             <div className="cart__cards">

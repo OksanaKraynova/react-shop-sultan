@@ -1,5 +1,7 @@
 import React from 'react';
 import ButtonPrice from '../ButtonPrice/ButtonPrice';
+import Whatsapp from '../../../icons/Whatsapp';
+import Telegram from '../../../icons/Telegram';
 
 const MixColumn = () => {
     return (
@@ -10,10 +12,10 @@ const MixColumn = () => {
                 <span>Связь в мессенджерах:</span>
                 <div>
                     <a href='https://whatsapp.com' target='_blank' rel="noreferrer">
-                        <img src="icons/watsapp.svg" alt="" />
+                       <Whatsapp/>
                     </a>
                     <a href='https://telegram.org' target='_blank' rel="noreferrer">
-                        <img src="icons/telegram.svg" alt="" />
+                        <Telegram />
                     </a>
                 </div>
             </div>

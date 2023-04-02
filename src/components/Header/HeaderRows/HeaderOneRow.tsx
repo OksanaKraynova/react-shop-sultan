@@ -27,9 +27,9 @@ const HeaderOneRow = ({setMenu}: any) => {
         <>
             <div className="header__links">
                 <HeaderLink link='г. Кокчетав, ул. Ж. Ташенова 129Б' text='(Рынок Восточный)'
-                    img='icons/map.svg' />
+                    img='../icons/map.svg' />
                 <HeaderLink link='opt.sultan@mail.ru ' text='На связи в любое время'
-                    img='icons/mail.svg' />
+                    img='../icons/mail.svg' />
             </div>
             <div className="header__main-wrapper">
   <HeaderContacts />

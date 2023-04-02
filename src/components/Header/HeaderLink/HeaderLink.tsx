@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 interface ILink {
     img?: string,
     link: string,

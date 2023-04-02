@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../../../app/hooks';
 import { getTotals } from '../../../../reduser/cartReducer';
+import Cart from '../../../../icons/Cart';
 
 const HeaderCart = () => {
     const cart = useAppSelector((state) => state.root.cartState)
@@ -9,12 +10,11 @@ const HeaderCart = () => {
     useEffect(() => {
         dispatch(getTotals())
     }, [cart, dispatch])
-    console.log(cart.cartTotalAmount);
-    
+
     return (
         <Link to='/cart' className='cart-header'>
             <div className="cart-header__icon">
-                <img alt='' src='/static/icons/cart.svg' />
+               <Cart />
                 <span className="cart-header__count">{cart.cartItems.length}</span>
             </div>
             <div className="cart-header__main">

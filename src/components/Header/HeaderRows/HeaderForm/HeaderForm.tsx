@@ -1,12 +1,14 @@
 import React from 'react';
-import Button from '../../../Button/Button';
+import Search from '../../../../icons/Search';
 
 const HeaderForm = () => {
     return (
         <form className='header-form'>
             <input placeholder='Поиск...' />
-            <Button  img='icons/search.svg' />
-        </form>
+            <button >
+                <Search />
+            </button>
+                </form>
     );
 };
 

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Search from '../../../icons/Search';
+import LogoWhite from '../../../icons/LogoWhite';
 
 const ColFirst = () => {
     return (
         <div className='footer-first'>
             <Link to='/'>
-                <img alt='logo' src='logo-white.svg' />
+               <LogoWhite />
             </Link>
             <p className='footer-text description'>Компания «Султан» — снабжаем розничные магазины товарами
                 "под ключ" в Кокчетаве и Акмолинской области </p>
@@ -14,7 +16,7 @@ const ColFirst = () => {
                 <div>
                     <input type='email' placeholder='Введите ваш E-mail' />
                     <button>
-                        <img src="icons/arrow.svg" alt="Send" />
+                        <Search />
                     </button>
                 </div>
             </form >

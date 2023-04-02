@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ISearch } from '../../../types/ISearch';
 import ChooseBrand from './ChooseBrand/ChooseBrand';
 import ChooseCategory from './ChooseCategory/ChooseCategory';
@@ -11,8 +11,7 @@ const CatalogAside = ({setSearch, search,  setGoods}:ISearch) => {
             <div className='aside__title' >Подбор по параметрам</div>
             <ChoosePrise />
             <ChooseBrand setSearch={setSearch} search={search} setGoods={setGoods} />
-            <ChooseCategory  setGoods={setGoods}/>
-            
+            <ChooseCategory  setGoods={setGoods}/>           
         </aside>
     );
 };
