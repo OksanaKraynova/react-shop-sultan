@@ -1,0 +1,38 @@
+.cart-row{
+    display: flex;
+    margin: 15px 0px 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    @media(max-width: 768px){
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 20px;
+        justify-content: flex-start;
+    }
+    &__price{
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 130%;
+    }
+    &__btn{
+        width: 184px;
+        height: 59px;
+    }
+}
+
+.counter{
+    font-weight: 500;
+    color: $gray;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &__btn{
+        background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+        border-radius: 1000px;
+        height: 23px;
+        width: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

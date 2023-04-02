@@ -1,0 +1,99 @@
+.admin{
+    padding: 50px 0 100px 0;
+    h3{
+        text-align: center;
+        font-weight: 700;
+        font-size: 34px;
+        margin-bottom: 50px;
+    }
+    &__wrapper{
+        display: flex;
+        gap: 30px;
+        @media(max-width: 768px){
+flex-wrap: wrap;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+.add{
+    border: 1px dashed #ebebeb;
+    padding: 30px 20px;
+    max-width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    @media(max-width: 768px){
+        max-width: none;
+        flex: 1;
+                }
+    &__card{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+       gap: 14px;
+     
+       input{
+          border: 1px solid #efefef;
+          padding: 10px;
+       }
+    }
+    &__btn{
+        height: 59px;
+        &:disabled{
+            background-color: #efefef;
+        }
+    }
+}
+
+.new-card{
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    width:   300px;
+    max-height: 400px;
+    overflow: hidden;
+    @media(max-width: 1226px){
+flex: 1 1 auto;
+    }
+    &__title{
+        font-weight: 600;
+    }
+    &__meaning{
+        color: $gray;
+        padding: 2px 0;
+        text-overflow: ellipsis;
+
+    }
+    &__row + &__row{
+        margin-top: 14px;
+        
+    }
+    &__row{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: flex;
+        font-size: 16px;
+        justify-content: space-between;
+gap: 20px;
+input{
+    border: 1px solid #e5e5e5;
+}
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: $gray;
+        height: 49px;
+        padding: 0 24px;
+        border-radius: 23px;
+        &:first-child{
+            background: $orange;
+        }
+    }
+}

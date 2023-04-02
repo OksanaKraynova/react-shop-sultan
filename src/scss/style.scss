@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import './null.scss';
+@import './variables.scss';
+@import './header/header.scss';
+@import './button/button.scss';
+@import './card.scss';
+@import './cart.scss';
+@import './admin.scss';
+@import './goods/goods.scss';
+@import './footer/footer.scss';
+@import './catalog/catalog.scss';
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: $black;
+    &.bg{
+        &:before{
+            content: '';
+            background: #111111;
+        opacity: 0.5;
+        position: fixed;
+        top: 107px;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        z-index: 9;
+ @media(max-width: 768px){
+            top: 136px;
+        }
+        }
+       
+    }
+}
+
+.container{
+    max-width: 1366px;
+    margin: 0 auto;
+    @media(max-width: 1380px){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+    @media(max-width: 1199px){
+padding-top: 107px;
+    }
+    @media(max-width: 768px){
+        padding-top: 135px;
+            }
+}
+.orange{
+    color: $orange;
+}
+.main-title{
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 500;
+    text-transform: uppercase;
+    span{
+        font-weight: 800;
+    }
+}
+
+.text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: $gray;
+    margin-top: 15px;
+}
+
+.nav{
+    display: flex;
+    color: $gray;
+    gap:10px;
+    @media(max-width: 768px){
+        display: none;           
+    }
+    a + a {
+        padding-left: 10px;
+        border-left: 1px dashed #3F4E65;
+    }
+     a + span {
+        padding-left: 10px;
+        border-left: 1px dashed #3F4E65;
+    }
+    span{
+        opacity: 0.5;
+    }
+}
+.not-found{
+    text-align: center;
+    font-size: 24px; 
+}

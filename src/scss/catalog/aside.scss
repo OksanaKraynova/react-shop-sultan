@@ -1,0 +1,118 @@
+.aside{
+    width: 238px;
+    margin-right: 108px;
+    @media(max-width: 1366px){
+        margin-right: calc(24px + (108 - 24) * ((100vw - 768px) / (1170 - 768))); 
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+}
+
+
+.price{
+    @media(max-width: 768px){
+        display: none;
+    }
+    &__row{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 16px;
+    }
+    &__text{
+        font-weight: 300;
+        line-height: 150%;
+        color: $gray;
+span{
+    font-weight: 500;
+    color: $black;
+    display: inline-block;
+    margin-left: 5px;
+}
+    }
+    &__input{
+        height: 23px;
+        width: 100px;
+        background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+        border-radius: 1000px;
+        color: $gray;
+        font-weight: 300;
+        font-size: 12px;
+    text-align: center;
+    }
+}
+
+.brand{
+    padding-top: 20px;
+    border-top: 1px dashed #EDEDED;
+    margin-top: 30px;
+  
+    &__span{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    &__form{
+        margin-top: 15px;
+        height: 59px;
+        width: 100%;
+        background: #EDEDED;
+        border-radius: 36px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+
+        input{
+            flex:1 ;
+            background-color: transparent;
+            padding-left: 10px;
+        }
+        button{
+            width: 39px;
+            height: 39px;
+            img{
+                margin-right: 3px;
+            }
+        }
+    }
+    &__more{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        img{
+            margin-left: 5px;
+           
+        }
+    }
+}
+
+.category{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #EDEDED;
+    @media(max-width: 768px){
+        padding-top: 0px;
+        border-top: none;
+    }
+    &__title{font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;}
+    &__list{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li{
+            button{
+                line-height: 150%;
+                color: $gray;
+            }
+        }
+    }
+}

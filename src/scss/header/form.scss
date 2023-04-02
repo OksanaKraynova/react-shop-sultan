@@ -1,0 +1,25 @@
+.header-form{
+    height: 59px;
+    width: 263px;
+    background: #EDEDED;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 35px 0px 15px ;
+    @media(max-width: 768px){
+display: none;
+    }
+    input{
+        background-color: transparent;
+        padding: 10px;
+        font-size: 12px;
+        flex: 1;
+    }
+    button{
+height: 39px;
+width: 39px;
+background: #FFC85E;
+border-radius: 50%;
+    }
+}

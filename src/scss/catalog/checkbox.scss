@@ -1,0 +1,28 @@
+.check{
+    display: flex;
+    flex-direction: column;
+margin-top: 15px;
+    &__wrapper{
+        display: flex; 
+        align-items: center;
+        gap: 10px;
+        input{
+            width: 1px;
+            height: 1px;opacity: 0;
+            &:checked +  .check__fake{
+background-color: #FFC85E;
+                }
+            
+        }
+    }
+    &__fake{
+        width: 10px;
+        height: 10px;
+        border: 0.5px solid #3F4E65;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+&__text{
+    line-height: 150%;
+}
+}

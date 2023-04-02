@@ -1,0 +1,129 @@
+@import './aside.scss';
+@import './checkbox.scss';
+
+.catalog{
+    padding: 45px 0px 86px 0px ;
+    @media(max-width: 1366px){
+                padding-top: calc(20px + (45 - 20) * ((100vw - 768px) / (1170 - 768))); 
+        padding-bottom: calc(50px + (108 - 50) * ((100vw - 768px) / (1170 - 768)));
+    }
+  
+    @media(max-width: 768px){
+        padding: 20px 10px 50px 10px ; 
+    }
+    .nav{
+        @media(max-width: 768px){
+            display: none;
+        }
+    }
+    &__main{
+        display: flex;
+        @media(max-width: 768px){
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 66px 0 25px 0;
+        @media(max-width: 1366px){
+            margin-top: calc(30px + (66 - 30) * ((100vw - 768px) / (1170 - 768))); 
+        }
+        @media(max-width: 768px){
+            margin: 0 0 15px 0; 
+            flex-wrap: wrap;
+            column-gap: 49px;
+            row-gap: 15px;
+        }
+    }
+    &__name{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 120%;
+        text-transform: uppercase;
+        @media(max-width: 1366px){
+            font-size: calc(20px + (40 - 20) * ((100vw - 768px) / (1170 - 768))); 
+        }
+        @media(max-width: 768px){
+            font-size: 20px; 
+        }
+    }
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        div{
+    
+
+            @media(max-width: 1359px){
+                flex: 1 1 48%;
+            }
+        }
+    }
+   
+    &__btns{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        gap: 10px;
+        button{
+            box-shadow: 0px 15px 70px -11px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        height: 70px;
+        }
+        @media(max-width: 998px){
+display: none;
+        }
+    }
+}
+
+.pagination{
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    button{
+       
+        width: 35px;
+        height: 35px;
+    }
+    .active{
+        background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+        border-radius: 50%;
+        
+    }
+}
+
+.sort{
+    display: flex;
+    gap: 6px;
+    position: relative;
+    cursor: pointer;
+    &__title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+    }
+     &__chose{
+            color: $gray;
+        }
+    &__list{
+        position: absolute;
+        background-color: #fff;
+        z-index: 5;
+        right: 0;
+        top: 20px;
+       
+        div + div{
+            border-top: 1px solid #e6e6e6;
+        }
+        div{
+            padding: 10px 15px;
+            cursor: pointer;
+            color: $gray;
+        }
+    }
+}
