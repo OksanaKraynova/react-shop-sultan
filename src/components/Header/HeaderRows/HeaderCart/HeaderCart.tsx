@@ -14,7 +14,7 @@ const HeaderCart = () => {
     return (
         <Link to='/cart' className='cart-header'>
             <div className="cart-header__icon">
-                <img alt='' src='icons/cart.svg' />
+                <img alt='' src='/static/icons/cart.svg' />
                 <span className="cart-header__count">{cart.cartItems.length}</span>
             </div>
             <div className="cart-header__main">

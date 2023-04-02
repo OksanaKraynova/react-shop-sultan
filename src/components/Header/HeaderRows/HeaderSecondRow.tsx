@@ -16,14 +16,14 @@ const HeaderSecondRow = ({menu, setMenu}: any) => {
     return (
         <>
             <button className="header__burger" onClick={handleClick}>
-                {menu ?  <img alt='' src='icons/close.svg' /> :  <img alt='' src='icons/burger.svg' />}
+                {menu ?  <img alt='' src='/static/icons/close.svg' /> :  <img alt='' src='/static/icons/burger.svg' />}
               
             </button>
             <Link to='/' className='logo-link'>
-                <img alt='' src='logo.svg' />
+                <img alt='' src='/static/logo.svg' />
             </Link>
             <Link to='/' className='header__catalog '  >
-                <img alt='catalog' src='icons/menu.svg' />
+                <img alt='catalog' src='/static/icons/menu.svg' />
                 <span>Каталог</span>
                 </Link>
                 <button className='header__catalog hide' >Поиск</button>

@@ -1,7 +1,7 @@
 export const products = [
     {
         name: 'Aos',
-        url: 'products/aos.png',
+        url: '/static/products/aos.png',
         type: 'мл',
         size: '450',
         code: '4583648409',
@@ -16,7 +16,7 @@ export const products = [
     },
     {
         name: 'Ariel pods',
-        url: 'products/ariel.png',
+        url: '/static/products/ariel.png',
         type: 'pods',
         size: '15',
         pack: 'box',
@@ -31,7 +31,7 @@ export const products = [
     },
     {
         name: 'BiMAX',
-        url: 'products/bimax.png',
+        url: '/static/products/bimax.png',
         type: 'г',
         size: '1500',
         code: '58746729',
@@ -46,7 +46,7 @@ export const products = [
     },
     {
         name: 'BioMio',
-        url: 'products/biomio.png',
+        url: '/static/products/biomio.png',
         type: 'г',
         size: '90',
         code: '453592281',
@@ -61,7 +61,7 @@ export const products = [
     },
     {
         name: 'Бомбочка для ванны',
-        url: 'products/bomb.jpeg',
+        url: '/static/products/bomb.jpeg',
         type: 'г',
         size: '50',
         code: '6587529984',
@@ -76,7 +76,7 @@ export const products = [
     },
     {
         name: 'Бомбочка для ванны',
-        url: 'products/bomb2.jpeg',
+        url: '/static/products/bomb2.jpeg',
         type: 'г',
         size: '50',
         code: '587489543839488',
@@ -91,7 +91,7 @@ export const products = [
     },
     {
         name: 'Rexona Антиперспирант шариковый женский ',
-        url: 'products/rexona.jpg',
+        url: '/static/products/rexona.jpg',
         type: 'мл',
         size: '50',
         code: '5487683498309',
@@ -106,7 +106,7 @@ export const products = [
     },
     {
         name: 'DOVE бессульфатный гель',
-        url: 'products/dove.jpeg',
+        url: '/static/products/dove.jpeg',
         type: 'мл',
         size: '250',
         code: '476595423',
@@ -121,7 +121,7 @@ export const products = [
     },
     {
         name: 'Бархатные Ручки ',
-        url: 'products/hands.jpeg',
+        url: '/static/products/hands.jpeg',
         type: 'мл',
         size: '80',
         code: '43654432',
@@ -136,7 +136,7 @@ export const products = [
     },
     {
         name: 'Erborian Крем для рук',
-        url: 'products/hands2.png',
+        url: '/static/products/hands2.png',
         type: 'мл',
         size: '20',
         code: '387598',
@@ -151,7 +151,7 @@ export const products = [
     },
     {
         name: 'Бархатные Ручки Универсальный КРЕМ',
-        url: 'products/hands3.png',
+        url: '/static/products/hands3.png',
         type: 'мл',
         size: '150',
         code: '4389842',
@@ -166,7 +166,7 @@ export const products = [
     },
     {
         name: 'Мочалка для тела',
-        url: 'products/moch.jpeg',
+        url: '/static/products/moch.jpeg',
         type: 'шт',
         size: '1',
                 code: '84375982',
@@ -180,7 +180,7 @@ export const products = [
     },
     {
         name: 'Nivea Soft Интенсивный увлажняющий крем',
-        url: 'products/nivea.jpeg',
+        url: '/static/products/nivea.jpeg',
         type: 'мл',
         size: '100',
         code: '48359823',
@@ -195,7 +195,7 @@ export const products = [
     },
     {
         name: 'Масло для рук натуральное',
-        url: 'products/oil.jpeg',
+        url: '/static/products/oil.jpeg',
         type: 'мл',
         size: '75',
         code: '89742202',
@@ -210,7 +210,7 @@ export const products = [
     },
     {
         name: 'ATB lab Сыворотка-пилинг с кислотами Exfloating Acid Mask ',
-        url: 'products/peels.png',
+        url: '/static/products/peels.png',
         type: 'мл',
         size: '30',
         code: '325348532',
@@ -225,7 +225,7 @@ export const products = [
     },
     {
         name: 'Скраб для тела Organic Shop "Малиновые сливки"',
-        url: 'products/polish.jpeg',
+        url: '/static/products/polish.jpeg',
         type: 'г',
         size: '250',
         code: '7436983534',
@@ -240,7 +240,7 @@ export const products = [
     },
     {
         name: 'VEET Крем для депиляции в душе',
-        url: 'products/veet.png',
+        url: '/static/products/veet.png',
         type: 'г',
         size: '300',
         code: '4565465475',
