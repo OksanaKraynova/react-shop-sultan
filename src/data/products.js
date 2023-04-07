@@ -57,7 +57,7 @@ export const products = [
         pack: 'box',
         id: 756544383,
         cartQuantity: 1,
-        uses: 'мыло'
+        uses: 'body'
     },
     {
         name: 'Бомбочка для ванны',
@@ -72,7 +72,7 @@ export const products = [
         pack: 'box',
         id: 45583,
         cartQuantity: 1,
-        uses: 'бомбока'
+        uses: 'gift'
     },
     {
         name: 'Бомбочка для ванны',
@@ -87,7 +87,7 @@ export const products = [
         pack: 'box',
         id: 75654383,
         cartQuantity: 1,
-        uses: 'бомбочка'
+        uses: 'gift'
     },
     {
         name: 'Rexona Антиперспирант шариковый мужской ',
@@ -179,6 +179,36 @@ export const products = [
         uses: 'body'
     },
     {
+        name: 'GARNIER Масло для интенсивного загара "Ambre Solaire"с маслом кокоса',
+        url: 'https://www.letu.ru/common/img/uploaded/skuImageFolder/GRN227607_mainGT.jpg',
+        type: 'мл',
+        size: '300',
+        code: '4834459823',
+        brand: 'Garnier',
+        pack: 'bottle',
+        manufacturer: 'Garnier',
+        description: 'Масло для интенсивного загара, популярное среди любителей солнца, создано на основе питательной формулы и очень удобно в использовании ',
+        price: 649,
+        id: 5098434,
+        cartQuantity: 1,
+        uses: 'tan'
+    },
+    {
+        name: 'Крем для ног Дезодорированный с ментолом ',
+        url: 'https://www.letu.ru/common/img/uploaded/skuImageFolder/GRN227607_mainGT.jpg',
+        type: 'мл',
+        size: '75',
+        code: '48344433823',
+        brand: 'Косметик',
+        pack: 'bottle',
+        manufacturer: 'Косметик',
+        description: 'Увлажняет и восстанавливает сухую кожу стоп, делает стопы гладкими и ухоженными. Быстро впитывается , не оставляя липкости, придает ощущение комфорта.',
+        price: 99,
+        id: 50984456534,
+        cartQuantity: 1,
+        uses: 'leg'
+    },
+    {
         name: 'Nivea Soft Интенсивный увлажняющий крем',
         url: 'https://ir.ozone.ru/s3/multimedia-r/c1000/6021041271.jpg',
         type: 'мл',
@@ -251,6 +281,21 @@ export const products = [
         price: 1199,
         id: 57688,
         cartQuantity: 1,
-        uses: 'depilation'
+        uses: 'shaving'
+    },
+    {
+        name: 'Zewa туалетная бумага делюкс белая 3 слоя 4 шт',
+        url: 'https://images.apteka.ru/original_632b3b92-5d4d-48fe-9b65-6e12588439ee.jpeg',
+        type: 'г',
+        size: '150',
+        code: '45654655',
+        pack: 'box',
+        brand: 'Zewa',
+        manufacturer: 'Zewa',
+        description: 'Впитывающие подушечки, созданные по особой технологии, обеспечивают деликатное очищение.  Удовольствие и Комфорт - вашей коже это понравится!',
+        price: 199,
+        id: 57688454,
+        cartQuantity: 1,
+        uses: 'paper'
     },
 ]

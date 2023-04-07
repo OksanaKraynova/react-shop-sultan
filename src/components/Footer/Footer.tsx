@@ -5,8 +5,6 @@ import FooterContacts from './FooterContacts/FooterContacts';
 import FooterMenu from './FooterMenu/FooterMenu';
 import MixColumn from './MixColumn/MixColumn';
 
-
-
 const Footer = () => {
     return (
         <footer className='footer'>
@@ -18,7 +16,6 @@ const Footer = () => {
                 <MixColumn/>
                 <FooterContacts />
                 </div>
-                
             </div>
         </footer>
     );

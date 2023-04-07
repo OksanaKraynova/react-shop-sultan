@@ -7,7 +7,7 @@ const GoodsNav = () => {
     const data = useAppSelector((state) => state.root.goodState.currentGoods)
     useEffect(() => {
         document.title = `СУЛТАН - ${data?.name}`
-    }, [])
+    }, [data])
     return (
         <>
             <div className='nav'>

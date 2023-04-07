@@ -1,5 +1,4 @@
-import { AnyAaaaRecord } from 'dns';
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import useValidation from './useValidation';
 
 const useInput = (initialValue: string, validations: any) => {

@@ -5,10 +5,8 @@ import { types } from '../../../data/type';
 import { handleChooseType } from '../../../utils/handleChooseType';
 
 const CatalogButtons = ({ setGoods }: any) => {
-
     const localGoods = useAppSelector(state => state.root.createState.goods)
     const [arr, setArr] = useState(localGoods.length ? localGoods : products)
-
 
     return (
         <div className='catalog__btns'>

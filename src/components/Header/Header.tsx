@@ -6,9 +6,7 @@ const Header = () => {
     const [menu, setMenu] = useState(false)
 
     useEffect(() => {
-        if(menu){
-            document.querySelector('body')?.classList.add('bg')
-        }
+        if(menu) document.querySelector('body')?.classList.add('bg')
     }, [menu])
    
     return (

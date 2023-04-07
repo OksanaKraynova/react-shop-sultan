@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { getTotals } from '../../reduser/cartReducer';
-import Button from '../Button/Button';
 
 const CartOrder = ({clearAll}: {clearAll: () => void}) => {
     const [open, setOpen] = useState(false)
     const cart = useAppSelector((state) => state.root.cartState)
     const dispatch = useAppDispatch()
+    
     useEffect(() => {
         dispatch(getTotals())
     }, [cart, dispatch])
-console.log(cart);
 
     const handleSubmit = () => {
         setOpen(true)

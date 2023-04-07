@@ -18,8 +18,7 @@ const Card = ({ name, url, type, size, code, manufacturer, brand, description, p
     return (
         <div className='card'>
             <div className="card__image">
-                {url !== '' ? <img src={url} alt="" /> : <img src='../no-photo.png' alt="" />}
-
+                {url !== '' ? <img src={url} alt="" /> : <img src='https://fast.org.ua/wa-apps/shop/img/image-dummy.png' alt="" />}
             </div>
             <div className="card__info">
                 <div className="card__size">

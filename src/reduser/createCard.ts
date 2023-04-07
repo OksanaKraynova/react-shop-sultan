@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit"
-import { ICard } from "../types/ICard"
 
 interface Goods {
         goods: any

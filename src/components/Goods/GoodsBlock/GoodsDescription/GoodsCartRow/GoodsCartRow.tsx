@@ -13,9 +13,7 @@ const GoodsCartRow = ({ data }: any) => {
         setCount(count - 1)
     }
 
-    const handleIncrease = () => {
-        setCount(count + 1)
-    }
+    const handleIncrease = () =>  setCount(count + 1)
 
     const handleAddToCart = (data: any) => dispatch(addToCart(data))
     return (

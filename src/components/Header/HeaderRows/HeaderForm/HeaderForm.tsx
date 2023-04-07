@@ -8,7 +8,7 @@ const HeaderForm = () => {
             <button >
                 <Search />
             </button>
-                </form>
+        </form>
     );
 };
 

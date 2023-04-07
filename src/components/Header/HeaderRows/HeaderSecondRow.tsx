@@ -8,9 +8,7 @@ import Close from '../../../icons/Close';
 import Logo from '../../../icons/Logo';
 import Menu from '../../../icons/Menu';
 
-
 const HeaderSecondRow = ({ menu, setMenu }: any) => {
-
     const handleClick = () => {
         setMenu(!menu)
         document.querySelector('body')?.classList.toggle('bg')
@@ -25,7 +23,7 @@ const HeaderSecondRow = ({ menu, setMenu }: any) => {
                 <Logo />
             </Link>
             <Link to='/' className='header__catalog '  >
-               <Menu />
+                <Menu />
                 <span>Каталог</span>
             </Link>
             <button className='header__catalog hide' >Поиск</button>
@@ -33,7 +31,6 @@ const HeaderSecondRow = ({ menu, setMenu }: any) => {
             <div className="header__contacts-wrapper">
                 <HeaderContacts />
             </div>
-
             <Link className='header-price btn' to='/admin' >Администратор</Link>
             <HeaderCart />
         </>

@@ -8,8 +8,7 @@ const ChooseBrand = ({search, setSearch,setGoods}: ISearch) => {
         <div className='brand'>
             <span className='brand__span'>Бренд</span>
             <ChooseBrandForm search={search} setSearch={setSearch} />
-            <ChooseBrandsChackboxes setGoods={setGoods}/>
-           
+            <ChooseBrandsChackboxes setGoods={setGoods}/>   
         </div>
     );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import { ICard } from '../../../../types/ICard';
 import GoodsButtons from './GoodsButtons/GoodsButtons';
 import GoodsCartRow from './GoodsCartRow/GoodsCartRow';
 import GoodsInfo from './GoodsInfo/GoodsInfo';

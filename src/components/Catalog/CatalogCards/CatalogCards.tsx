@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { products } from '../../../data/products';
 import { ICard } from '../../../types/ICard';
 import { ISearch } from '../../../types/ISearch';
 import Card from '../../Card/Card';
@@ -8,8 +7,7 @@ import Pagination from './Pagination/Pagination';
 const CatalogCards = ({search, setSearch, goods}: ISearch) => {
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage, setPostsPerPage] = useState(6);
-
-
+ 
     const lastPostIndex = currentPage * postsPerPage;
     const firstPostIndex = lastPostIndex - postsPerPage;
     const currentGoods = goods.slice(firstPostIndex, lastPostIndex);

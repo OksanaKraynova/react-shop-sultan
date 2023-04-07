@@ -47,6 +47,9 @@
         @media(max-width: 1299px){
 display: none;
         }
+        img{
+            width: 80px;
+        }
     }
     &__online{
         position: absolute;
@@ -56,6 +59,6 @@ display: none;
         background: #1FD85D;
         border: 2px solid #F0F6FA;
         top: 29px;
-        right: 6px;
+        right: 0px;
     }
 }

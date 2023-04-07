@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { useSelector } from 'react-redux';
+import React from 'react';
+
 import GoodsBlock from '../components/Goods/GoodsBlock/GoodsBlock';
 import GoodsNav from '../components/Goods/GoodsNav/GoodsNav';
 

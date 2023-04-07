@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { products } from '../../../../data/products';
+import DropdownSort from './DropdownSort';
 
-const Sort = ({ sortedGoods, sortedGoodsDownPrice, sortedGoodsUpPrice, sortedOtherGoods }: any) => {
+const Sort = ({ newGoods,setGoods }: any) => {
     const [selected, setSelected] = useState('')
     const [open, setOpen] = useState(false)
-
 
     return (
         <div className='sort'>
@@ -13,15 +12,8 @@ const Sort = ({ sortedGoods, sortedGoodsDownPrice, sortedGoodsUpPrice, sortedOth
                 {selected ? selected : 'По популярности'}
             </div>
             {open && (
-                <div className='sort__list'>
-                    <div onClick={() => { setSelected('Название a-z'); setOpen(false); sortedGoods() }}  >Название a-z</div>
-                    <div onClick={() => { setSelected('Название z-a'); setOpen(false); sortedOtherGoods() }}  >Название z-a</div>
-                    <div onClick={() => { setSelected('Цена по убыванию'); setOpen(false); sortedGoodsDownPrice() }}>Цена по убыванию</div>
-                    <div onClick={() => { setSelected('Цена по возрастанию'); setOpen(false); sortedGoodsUpPrice() }}>Цена по возрастанию</div>
-                </div>
+            <DropdownSort setSelected={setSelected} setOpen={setOpen} newGoods={newGoods} setGoods={setGoods} />
             )}
-
-
         </div>
     );
 };
