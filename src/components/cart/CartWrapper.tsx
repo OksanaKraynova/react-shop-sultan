@@ -21,7 +21,7 @@ const CartWrapper = () => {
     return (
         <div className='cart container'>
             <CartNavigation />
-            <div className="cart__title">КОРЗИНА</div>
+            <div className="cart__title" data-testid='cart-title' >КОРЗИНА</div>
             <div className="cart__cards">
                 {cart.length !== 0 ?  cart.map((item: ICard) => (
                     <CartItem key={item.code} data={item} removeItem={removeItem} handleIncrease={handleIncrease} handleDecrease={handleDecrease} />

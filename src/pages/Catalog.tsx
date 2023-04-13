@@ -6,7 +6,7 @@ const Catalog = () => {
         document.title = `СУЛТАН - главная`
     }, [])
     return (
-        <div>
+        <div data-testid='catalog-page'>
             <CatalogPage />
         </div>
     );

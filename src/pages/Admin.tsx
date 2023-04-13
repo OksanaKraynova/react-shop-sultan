@@ -6,9 +6,9 @@ const Admin = () => {
         document.title = `СУЛТАН - страница администратора`
     }, [])
     return (
-        <>
+        <div data-testid='admin-page'>
             <AdminPage />
-        </>
+        </div>
     );
 };
 

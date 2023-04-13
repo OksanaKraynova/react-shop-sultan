@@ -3,6 +3,7 @@ import { ISearch } from '../../../../../types/ISearch';
 import Search from '../../../../../icons/Search';
 
 const ChooseBrandForm = ({ setSearch, search }: ISearch) => {
+    
     return (
         <form className='brand__form'>
             <input data-testid='search-brand' placeholder='Поиск...' value={search} onChange={e => setSearch(e.target.value)} />

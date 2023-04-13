@@ -9,9 +9,9 @@ type Card ={
 const CartCounter = ({data, handleDecrease, handleIncrease }: Card) =>  {
     return (
         <div className='counter'>
-            <button className="counter__btn" onClick={()=>handleDecrease(data)}>-</button>
-            <span>{data.cartQuantity}</span>
-            <button className="counter__btn" onClick={() => handleIncrease(data)}>+</button>
+            <button className="counter__btn" data-testid='decrement' onClick={()=>handleDecrease(data)}>-</button>
+            <span data-testid='counter-value' >{data.cartQuantity}</span>
+            <button className="counter__btn" data-testid='increment' onClick={() => handleIncrease(data)}>+</button>
         </div>
     );
 };

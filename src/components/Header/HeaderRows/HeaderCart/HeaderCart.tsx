@@ -12,13 +12,13 @@ const HeaderCart = () => {
     }, [cart, dispatch])
 
     return (
-        <Link to='/cart' className='cart-header'>
+        <Link to='/cart' className='cart-header' data-testid='cart-link' >
             <div className="cart-header__icon">
                <Cart />
                 <span className="cart-header__count">{cart.cartItems.length}</span>
             </div>
             <div className="cart-header__main">
-                <span className="cart-header__name">Корзина</span>
+                <span className="cart-header__name" data-testid='cart-link-link' >Корзина</span>
                 <span className="cart-header__price">{cart.cartTotalAmount} T</span>
             </div>
         </Link>

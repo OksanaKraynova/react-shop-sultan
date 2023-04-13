@@ -6,7 +6,7 @@ const Cart = () => {
         document.title = `СУЛТАН - корзина`
     }, [])
     return (
-        <div>
+        <div data-testid='cartPage'>
             <CartWrapper />
         </div>
     );
